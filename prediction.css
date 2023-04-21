@@ -1,0 +1,113 @@
+*{
+    content: icon;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 0px;
+    /* overflow-x: hidden;*/
+ }
+
+ a{
+
+    font-weight: 100;
+     text-decoration: none;
+     color: white;
+ }
+
+ header{
+     text-align: center;
+     padding: 20px 20px 20px 20px;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 25px;
+     color: rgb(255, 255, 255);
+     background-image: url(/p.jpg);
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover;
+
+ }
+ nav{
+    padding: 10px 10px 10px 10px;
+
+     position: static;
+     margin-top: 0px;
+     display: flex;
+     list-style: none;
+     font-size: 20px;
+     font-family:'Poppins';
+     color: rgb(243, 234, 218);
+     background-color: rgb(53, 45, 83);
+     top: 0px;
+        position: sticky;
+        box-shadow: #3f3e3e 0px  0px 30px 0px  ;
+ }
+ li{
+     font-size: 20px;
+     font-family:'Poppins';
+     padding: 15px;
+     margin: 0px 10px 0px 10px;
+ }
+ #id2{
+    padding: 3px;
+    border: solid black 2px;
+    margin-top: 8px;
+    border-radius: 9px;
+    position: absolute;
+    right: 20px;
+    width: 185px;
+    height: 30px;
+ }
+
+ a:hover{
+    font-weight:800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(249, 246, 246);
+}
+
+
+
+.symp{
+    padding-top: 100px;
+    padding-left: 41%;
+    background-color: #99d1f4;;
+    height: 500px;
+    font-family:'Poppins';
+}
+
+input[type="text"]{
+    margin: 5px;
+    margin-left: 20px;
+    border-radius:3px ;
+    border: none;
+    font-size: larger;
+    padding: 4px;
+    font-size: 15px;
+}
+input[type="text"]:hover{
+    box-shadow: 5px 5px 20px 0px;
+}
+
+.para{
+    position: absolute;
+    left: 8%;
+    top: 160px;
+    font-size: 20px;
+}
+
+#gmap_canvas{
+    height: 800px;
+    width: 70%;
+    position: absolute;
+    left: 10%;
+    margin: 20px 20px 20px 20px ;
+    border: black solid 3px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px 0px black;
+}
+
+time{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 80;
+    color: rgb(102, 101, 101);
+    text-align: center;
+}

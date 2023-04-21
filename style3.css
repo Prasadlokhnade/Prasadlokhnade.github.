@@ -1,0 +1,515 @@
+
+*{
+   content: icon;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+   /* overflow-x: hidden;*/
+}
+.proj{
+    font-family:'Poppins';
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+body{
+    background:rgb(-0,6,20);
+    color: aliceblue;
+}
+a{
+    /* font-size: 25px; */
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-weight:800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(249, 246, 246);
+}
+
+
+header{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-family:'Times New Roman', Times, serif;
+    /* font-size: 25px; */
+    color: rgb(255, 255, 255);
+    background-image: url(/p.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+}
+nav{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    position: static;
+    margin-top: 0px;
+    display: flex;
+    list-style: none;
+    /* font-size: 10px; */
+    font-family:'Poppins';
+    color: rgb(243, 234, 218);
+    background-color: rgb(46, 12, 78);
+    top: 0px;
+       position: sticky;
+       box-shadow: #3f3e3e 0px  0px 30px 0px  ;
+}
+
+li{
+    /* font-size: 20px; */
+    font-family:'Poppins';
+    padding: 15px;
+    margin: 0px 10px 0px 10px;
+}
+#id2{
+    padding: 3px;
+    border: solid rgb(249, 245, 245) 2px;
+    margin-top: 8px;
+    border-radius: 9px;
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+
+
+.first{
+    color: white;
+        padding: 0px;
+        margin: 30px 30px 30px 30px;
+        border-radius: 10px;
+        width:500px;
+        height: auto;
+        float: left;
+}
+p{ color: white;
+    font-size: 18px;
+    padding:auto ;
+    text-align:inherit;
+}
+h1{
+    color: white;
+    margin-top: 30px;
+    margin-right: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0px 30px ;
+}
+p{ color: white;
+    font-weight: 150;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.first-div{
+    color: white;
+    margin: 20px 20px 20px 20px ;
+ padding: 50px 30px 30px 30px;
+}
+
+.second-div{
+    margin: 20px 20px 20px 20px ;
+ clear: left;
+ padding: 50px 30px 30px 30px;
+}
+
+.forth-div{
+    margin: 20px 20px 20px 20px ;
+ clear: left;
+ padding: 50px 30px 30px 30px;
+}
+
+.forth{
+    color: white;
+    padding: 0px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 10px;
+    width:500px;
+    height: auto;
+    float: right;
+}
+.thired{
+    color: white;
+    padding: 0px;
+        margin: 30px 30px 30px 30px;
+        border-radius: 10px;
+        width:500px;
+        height: auto;
+        float: left;
+}
+
+
+.thired-div{
+    margin: 20px 20px 20px 20px ;
+    clear: left;
+    padding: 50px 30px 30px 30px;
+   }
+
+   .first,.second,.thired,.forth{
+    color: white;
+    border: solid rgb(238, 235, 239) 2px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 0px rgb(86, 85, 85);
+   }
+.second{
+    color: white;
+    padding: 0px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 10px;
+    width:500px;
+    height: auto;
+    float: right;
+
+}
+
+.h-lights{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    text-align: center;
+}
+
+.info{
+    font-size: 20px;
+    color: rgb(0, 4, 7);
+}
+.main{
+    font-size: 20px;
+    color: rgb(0, 4, 7);
+}
+
+.lights{
+    padding: 50px 30px 30px 30px ;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.space{
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+}
+
+.teacher{
+    text-decoration-line: underline;
+    text-decoration-color:rgb(74, 194, 227) ;
+    padding: 10px 10px 10px 10px;
+text-transform: uppercase;
+color: #3bdae2;
+text-align: center;
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+animation: animtext 8s steps(80, end);
+transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+animation-iteration-count: 2;
+}
+
+
+.img-card{
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: rgb(246, 244, 244) solid 2px;
+
+}
+
+.main-div{
+    border: white solid 3px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    height: auto;
+}
+
+b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: aliceblue;
+}
+.for-info{
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding: 10px 10px 10px 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 8px 8px 8px 8px ;
+    text-align: center;
+    border: 2px solid rgb(247, 246, 247);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    border: 2px solid rgba(249, 246, 250, 0.624);
+  box-shadow: 0px 0px 40px -5px;
+
+}
+
+
+.reviews{
+    margin: 10px 10px 10px  10px ;
+    padding: 10px 10px 10px 10px ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(248, 245, 245);
+}
+
+.reviews2{
+    margin: 10px 10px 10px  10px ;
+    padding: 10px 10px 10px 10px ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(65, 64, 64);
+}
+
+.info11{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.star{
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    margin-top: 5px;
+}
+
+
+.i{
+   /* border: 2px solid rgb(3, 24, 55);*/
+   border: none;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+    height: 450px;
+    width: 400px;
+    background-color: white;
+   /*  box-shadow: #535252 2px 2px 2px 2px; */
+   box-shadow: 0px 0px 40px -5px;
+
+}
+
+.Review{
+    padding: 20px 10px 10px 20px;
+    margin: 20px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+}
+.i-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
+    float:left;
+}
+p{ color: white;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+
+}
+
+footer{
+    position: relative;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: -200px;
+    padding: 10px 10px 10px 10px ;
+
+}
+
+pre{
+    color: white;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px ;
+}
+.end{
+    padding: 0px 0px 0px 0px ;
+    margin: 10px 10px 10xp 10px ;
+}
+
+.bacground{
+    margin: 20px 20px 20px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: rgb(6, 0, 0) solid 5px;
+    border-radius: 20px;
+     padding: 20px 20px 20px 20px ;
+     background: rgb(74,63,251);
+     background: #74ebd5;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     height: auto;
+
+}
+
+
+
+
+#slider{
+    border: rgb(248, 246, 246) 5px solid;
+    width: 900px;
+    border-radius: 20px;
+    height:600px;
+    margin: 30px 30px 30px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: width 1s, height 1s;
+     animation-name: fade;
+    animation-duration: 0.8s;
+    box-shadow: 10px 10px 20px 5px rgba(75, 74, 74, 0.493);
+  }
+
+  #slider:hover{
+    box-shadow: 5px 5px 50px 5px black;
+  }
+  @keyframes example {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .slider-img{
+    background-image: url(/Premium\ Photo\ _\ Machine\ learning_\ hand\ of\ robot\ touching\ on\ computer\ chip\ and\ binary\ data.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 700px;
+
+  }
+  .img-li{
+    display: inline;
+    list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0;
+
+  }
+
+  .op{
+    opacity: 0.6;
+    height: 180px;
+    width: 180px;
+    transform: rotate(-45deg);
+    margin: 10px 10px 10px 10px ;
+    border-radius: 10px;
+    border: solid white 3px;
+    transition: width 2s, height 2s,border-radius 3s;
+    animation-name: fade;
+   animation-duration: 1.5s;
+  }
+
+  #img-1{
+    position: absolute;
+   left: 7%;
+   top:76%;
+  }
+
+  #img-2{
+    position: absolute;
+   left: 17.5%;
+   top:56%;
+  }
+
+  #img-3{
+    position: absolute;
+   left: 28%;
+   top:36.5%
+  }
+  #img-4{
+    position: absolute;
+    left:39%;
+    top:56%;
+  }
+
+  #img-5{
+    position: absolute;
+   left:50%;
+   top:76%
+  }
+
+  #img-6{
+    position: absolute;
+   left:60.5%;
+   top:56%
+  }
+  #img-7{
+    position: absolute;
+   left:71%;
+   top:36%
+  }
+  #img-8{
+    position: absolute;
+   left:75.5%;
+   top:53.5%
+  }
+  #img-9{
+    position: absolute;
+   left:85%;
+   top:38%
+  }
+  #img-10{
+    position: absolute;
+   left:40%;
+   top:43%
+
+  }
+  #img-11{
+    position: absolute;
+   left:85%;
+   top:43%
+  }
+  #img-1:hover,#img-2:hover,#img-3:hover,#img-4:hover,#img-5:hover,#img-6:hover,#img-7:hover,#img-8:hover,#img-9:hover{
+    opacity: 1;
+    box-shadow: 5px 5px 5px 5px rgba(99, 97, 97, 0.465);
+    border: black 3px solid;
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    z-index: 1;
+    width: auto;
+    height: 190px;
+    border-radius: 10px;
+  }
+  @keyframes example {
+    from {opacity: 0.6}
+    to {opacity: 1}
+  }
+
+  time{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 80;
+    color: rgb(132, 131, 131);
+    text-align: center;
+}
