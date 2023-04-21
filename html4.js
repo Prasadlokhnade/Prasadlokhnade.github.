@@ -13,17 +13,17 @@ function img(counter) {
     //console.log(i);
 
     if (counter == 1) {
-      i.src = "/Artificial-IntelligenceAI.jpeg";
+      i.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbwLcilCm4l9dRwCsJCDR4tNkFqVj7cbNjQf_e97RRA&usqp=CAU&ec=48665698";
       counter = 2;
     }
 
     else if (counter == 2) {
-      i.src = "/Doctors_For_Men-732x549-thumbnail-1.webp";
+      i.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJAxLxJ83ADAeI0niQGDjACUEkfoY9J1IlNgyx-05iQ&usqp=CAU&ec=48665698";
       counter = 3;
     }
 
     else {
-      i.src = "/1_NMSSETDN1qwsveyx7VrcmQ.png";
+      i.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UiUIscfi4vbuqr5o2J4P5okjkuKgmUzMhI-g6UFoBg&usqp=CAU&ec=48665698";
       counter = 1;
     }
   }, 2000)
